@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(#2c2a2a 0%, #000000 100%);
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+}
+
+#small-down1 {
+  animation: SmallUp1 2.5s ease 0s infinite;
+}
+
+#small-down2 {
+  animation: SmallUp2 2.5s ease 50ms infinite;
+}
+
+#small-down3 {
+  animation: SmallUp3 2.5s ease 100ms infinite;
+}
+
+#small-down4 {
+  animation: SmallUp4 2.5s ease 150ms infinite;
+}
+
+#small-down5 {
+  animation: SmallUp5 2.5s ease 200ms infinite;
+}
+
+#small-down6 {
+  animation: SmallUp6 2.5s ease 250ms infinite;
+}
+
+#small-down7 {
+  animation: SmallUp7 2.5s ease 300ms infinite;
+}
+
+#small-down8 {
+  animation: SmallUp8 2.5s ease 350ms infinite;
+}
+
+#big {
+  animation: BigToSmall 2.5s ease 50ms infinite;
+}
+
+@keyframes SmallUp1 {
+  0% {
+    d: path("M142.5 95L129 108.5L142.5 122.5L156 108.5L142.5 95Z");
+  }
+  50% {
+    d: path("M142.5 1L129 14.5L142.5 28.5L156 14.5L142.5 1Z");
+  }
+  100% {
+    d: path("M142.5 95L129 108.5L142.5 122.5L156 108.5L142.5 95Z");
+  }
+}
+@keyframes SmallUp2 {
+  0% {
+    d: path("M142.5 95L129 108.5L142.5 122.5L156 108.5L142.5 95Z");
+  }
+  50% {
+    d: path("M185.5 46L172 59.5L185.5 73.5L199 59.5L185.5 46Z");
+  }
+  100% {
+    d: path("M142.5 95L129 108.5L142.5 122.5L156 108.5L142.5 95Z");
+  }
+}
+@keyframes SmallUp3 {
+  0% {
+    d: path("M142.5 95L129 108.5L142.5 122.5L156 108.5L142.5 95Z");
+  }
+  50% {
+    d: path("M232.5 93L219 106.5L232.5 120.5L246 106.5L232.5 93Z");
+  }
+  100% {
+    d: path("M142.5 95L129 108.5L142.5 122.5L156 108.5L142.5 95Z");
+  }
+}
+@keyframes SmallUp4 {
+  0% {
+    d: path("M142.5 95L129 108.5L142.5 122.5L156 108.5L142.5 95Z");
+  }
+  50% {
+    d: path("M187.5 140L174 153.5L187.5 167.5L201 153.5L187.5 140Z");
+  }
+  100% {
+    d: path("M142.5 95L129 108.5L142.5 122.5L156 108.5L142.5 95Z");
+  }
+}
+@keyframes SmallUp5 {
+  0% {
+    d: path("M142.5 95L129 108.5L142.5 122.5L156 108.5L142.5 95Z");
+  }
+  50% {
+    d: path("M142.5 183L129 196.5L142.5 210.5L156 196.5L142.5 183Z");
+  }
+  100% {
+    d: path("M142.5 95L129 108.5L142.5 122.5L156 108.5L142.5 95Z");
+  }
+}
+@keyframes SmallUp6 {
+  0% {
+    d: path("M142.5 95L129 108.5L142.5 122.5L156 108.5L142.5 95Z");
+  }
+  50% {
+    d: path("M88.5 140L75 153.5L88.5 167.5L102 153.5L88.5 140Z");
+  }
+  100% {
+    d: path("M142.5 95L129 108.5L142.5 122.5L156 108.5L142.5 95Z");
+  }
+}
+@keyframes SmallUp7 {
+  0% {
+    d: path("M142.5 95L129 108.5L142.5 122.5L156 108.5L142.5 95Z");
+  }
+  50% {
+    d: path("M52.5 93L39 106.5L52.5 120.5L66 106.5L52.5 93Z");
+  }
+  100% {
+    d: path("M142.5 95L129 108.5L142.5 122.5L156 108.5L142.5 95Z");
+  }
+}
+@keyframes SmallUp8 {
+  0% {
+    d: path("M142.5 95L129 108.5L142.5 122.5L156 108.5L142.5 95Z");
+  }
+  50% {
+    d: path("M95.5 46L82 59.5L95.5 73.5L109 59.5L95.5 46Z");
+  }
+  100% {
+    d: path("M142.5 95L129 108.5L142.5 122.5L156 108.5L142.5 95Z");
+  }
+}
+@keyframes BigToSmall {
+  0% {
+    d: path("M142 73L106 109L142 145L178 109L142 73Z");
+  }
+  50% {
+    d: path("M142 91L124 109L142 128L160.5 109.5L142 91Z");
+  }
+  100% {
+    d: path("M142 73L106 109L142 145L178 109L142 73Z");
+  }
+}/*# sourceMappingURL=styles.css.map */
